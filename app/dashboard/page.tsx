@@ -154,7 +154,7 @@ export default function Dashboard() {
         <div style={{ display: 'flex', gap: '10px' }}>
           {userRole === 'admin' && (
             <button
-              onClick={() => router.push('/dashboard/invite')}
+              onClick={() => router.push('app/dashboard/invite')}
               style={outlineButton}
             >
               Invite User
